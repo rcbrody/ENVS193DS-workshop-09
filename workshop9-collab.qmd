@@ -20,3 +20,17 @@ reading in data
 data(pie_crab) #reading in plum island ecosystem crab data set from lterdatasampler package
 
 ```
+
+exploratory visualization
+
+```{r}
+ggplot(aes(x=latitude, y=size), data = pie_crab) + # set up plot
+  geom_point(color = "royalblue") + # scatterplot
+  labs(x = "latitude", y = "Size (mm)")+
+  theme_minimal()
+```
+
+
+
+
+
