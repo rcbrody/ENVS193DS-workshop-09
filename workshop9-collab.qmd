@@ -12,3 +12,11 @@ library(lterdatasampler) # for data access
 library(ggeffects) # for models
 library(here) # for easy file pathing
 ```
+
+
+
+reading in data
+```{r}
+data(pie_crab) #reading in plum island ecosystem crab data set from lterdatasampler package
+
+```
