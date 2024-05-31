@@ -41,4 +41,21 @@ plot(crab_model) #plotting the diagnostics
 
 ```
 
+interpret model
+
+```{r}
+summary(crab_model) # look at results
+```
+Slope: 0.49 +/- 0.034
+Y intercept: -3.6 +/- 1.27
+
+For every one unit increase in latitude, we expect to see an increase in crab size of 0.49 +/- 0.034 mm.
+
+model statistics: F(1,390) = 208.5, p < 0.0001, alpha = 0.05, R^2^ = 0.35
+
+
+
+
+
+
 
