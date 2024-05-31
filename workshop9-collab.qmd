@@ -31,6 +31,14 @@ ggplot(aes(x=latitude, y=size), data = pie_crab) + # set up plot
 ```
 
 
+writing a model
+```{r}
+crab_model <- lm(size~latitude, #formula: response~predictor
+                 data = pie_crab) #data from lter data sampler
+#look at diagnostics here
+par(mfrow = c(2,2)) 
+plot(crab_model) #plotting the diagnostics
 
+```
 
 
